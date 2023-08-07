@@ -1,7 +1,5 @@
 <?php declare(strict_types=1);
 
-//use Users\controllers\User_Controller;
-
 use Helpers\Response;
 
 class Router

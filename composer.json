@@ -1,10 +1,10 @@
 {
-    "name": "dragon-eyes/user-group-manager-v4",
+    "name": "chrisdunko/mongo-php",
     "description": "A PHP system that uses MongoDB.",
     "version": "0.1.0",
     "type": "project",
     "keywords": ["PHP", "MongoDB"],
-    "license": "proprietary",
+    "license": "do-whatever-but-do-not-blame-me",
     "authors": [
         {
             "name": "Christoph Dunkake",
@@ -17,30 +17,20 @@
         "php": "^8.2",
         "mongodb/mongodb": "^1.16"
     },
-    "require-dev": {
-        "phpunit/phpunit": "^10"
-    },
+    "require-dev": {},
     "autoload": {
         "psr-4": {
             "Controllers\\": "controllers/",
             "Models\\": "models/",
             "Enums\\": "enums/",
-            "Helpers\\": "helpers/",
-            "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
-            "Logs\\": "modules/logs/",
-            "Users\\": "modules/users/",
-            "Tokens\\": "modules/tokens/"
+            "Helpers\\": "helpers/"
         },
         "files": [
-            "Router.php",
-            "modules/core/controllers/Template_Controller.php",
-            "modules/core/models/Core_Model.php"
+            "Router.php"
         ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
         }
     },
     "scripts": {},
