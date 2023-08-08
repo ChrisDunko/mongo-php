@@ -16,7 +16,7 @@
     "require": {
         "php": "^8.2",
         "mongodb/mongodb": "^1.16",
-        "ext-mongo": "*"
+        "ext-mongodb": "*"
     },
     "require-dev": {},
     "autoload": {
